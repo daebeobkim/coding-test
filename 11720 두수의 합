@@ -1,0 +1,6 @@
+t = int(input())
+x = 0
+n =list(map(int,input()))
+for i in range(t):
+	x += n[i]
+print("%d" %x)
