@@ -1,0 +1,10 @@
+x = 5
+sum = 0
+for i in range(x):
+	t = int(input())
+	if(t<40):
+		t=40
+	if(0<t%5!=0):
+		break
+	sum += t
+print(int(sum/x))
