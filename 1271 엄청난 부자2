@@ -1,0 +1,6 @@
+a,b = map(int,input().split())
+
+n = int(a//b)
+m = int(a%b)
+print("%d" %n)
+print("%d" %m)
