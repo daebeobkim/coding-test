@@ -1,0 +1,11 @@
+a = []
+
+for i in range(7):
+    num = int(input())
+    if (num%2 ==1):
+            a.append(num)
+if a:
+    print(sum(a))
+    print(min(a))
+else:
+    print(-1)
