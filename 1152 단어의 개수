@@ -1,2 +1,3 @@
 a = input().split()
 print(len(a))
+//len을 사용해 the camp같은 경우 'the' 'camp'같이 2개로 나눠지게 만들었음
