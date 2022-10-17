@@ -1,6 +1,7 @@
 x = 5
 sum = 0
 for i in range(x):
+
 	t = int(input())
 	if(t<40):
 		t=40
